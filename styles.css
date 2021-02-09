@@ -1,0 +1,67 @@
+body{
+  margin: 0px;
+}
+header {
+  width: 100%;
+  height: 70px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+a:hover{
+  text-decoration: underline;
+}
+#image{
+  display:block;
+  max-width: 100%;
+  height: auto;
+}
+#img-div{
+  text-align: center;
+}
+
+#background-image img {
+  display:inline-block;
+  width: 100%;
+  height: 90vh;
+  max-width: 100%;
+}
+#title{
+  margin: 5px;
+}
+#info{
+  display: flex;
+}
+#tribute-info{
+  font-size: 3vh;
+  align-self: center;
+}
+#images{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+#images div{
+  margin-right: 10px;
+}
+#images img{
+  display: block;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.bold-text{
+  font-weight: 700;
+}
